@@ -4,7 +4,6 @@ class RecordatorioHogar(ABC):
         self.titulo = titulo
         self._archivado = False
 
-    @abstractmethod
     def mostrar_nota(self):
         pass
 
