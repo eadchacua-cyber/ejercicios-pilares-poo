@@ -3,7 +3,6 @@ class Instrumento(ABC):
     def __init__(self, apodo):
         self.apodo = apodo
 
-    @abstractmethod
     def producir_musica(self):
         pass
 
